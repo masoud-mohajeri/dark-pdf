@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Dark pdf",
+    "description": "Dark theme for all pdf documents!",
+    "version": "1.0",
+    "action": {
+        "default_icon": "flashligh.png"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
